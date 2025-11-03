@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Autobiography</title>
+<style>
+  body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(180deg, #000000, #ffffff);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .container {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 6px 25px rgba(0,0,0,0.1);
+    padding: 40px 50px;
+    max-width: 700px;
+    text-align: center;
+  }
+
+  h1 {
+    color: #000000;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+
+  details {
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 15px 20px;
+    background-color: #f8fafc;
+    transition: all 0.3s ease;
+  }
+
+  details[open] {
+    padding: 40px 20px;
+    background-color: #f1f5f9;
+  }
+
+  summary {
+    font-weight: bold;
+    color: #000000;
+    cursor: pointer;
+    font-size: 1.1em;
+    list-style: none;
+    text-align: left;
+  }
+
+  summary::-webkit-details-marker {
+    display: none;
+  }
+
+  summary::after {
+    content: " ▼";
+    color: #000000;
+    font-size: 0.9em;
+  }
+
+  details[open] summary::after {
+    content: " ▲";
+  }
+
+  .bio {
+    color: #000000;
+    font-size: 1.1em;
+    line-height: 1.8;
+    text-align: justify;
+    max-height: 400px;
+    overflow-y: auto;
+    margin-top: 10px;
+    padding-right: 10px;
+  }
+
+  .bio::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .bio::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border-radius: 6px;
+  }
+
+  .home-btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s ease;
+  }
+
+  .home-btn:hover {
+    background-color: #444444;
+    transform: scale(1.05);
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>Allen May Bitaw</h1>
+    <details>
+      <summary>Read my autobiography</summary>
+      <div class="bio">
+        <p>
+          My name is Allen Loi D. Cabasag, and I was born on November 29,2006 in the town of Macanaya Aparri Cagayan, We are  three Siblings of Lerma D. Cabasag and Allan D. Cabasag. Growing up as their three Siblings,
+          I have been surrounded with love, care, and constant guidance. My parents have always been my source of strength and inspiration, and because of them, I learned to value discipline, hard work, and respect for others.
+           From a young age, I discovered my interest in different activities, especially in sports. One sport that captured my heart is Basketball. At first, it was simply a hobby, but as time passed it became a passion and an 
+           important part of my identity Basketball has not only strengthened my body but also shaped my character.Through the sport, learned valuable lessons such as respect, perseverance, and mental toughness.
+          <br><br>
+          Every training session taught me that success does not happen overnight-a comes through sercat, sacrifice, and determination in 2023, was given the opportunity to represent my school and community as a participant In the 
+          CAPITAL TOWN For me this was a great honor became not everyone in given the chance to weve a uniforms and compete on behalf of eir school and hometown That experience remains unforgettable because it taught me the true meaning of 
+          being an athlete-not just to fight for medals but to represent the spirit of teamwork, pride, and resilience More than winning, the lessons I gained and the experience I shared with my teammates and opponents are what I value most.
+          Aside from sports, take my studies seriously I strongly believe that Education is the key to unlocking a better future. It gives you the power to dream big and the skills to turn those dreams into reality
+          <br><br>
+          Through education, you gain knowledge, confidence, and the ability to make meaningful contributions to the world around you. 
+          It's not just about learning facts; it's about discovering new ideas, solving problems, and thinking critically.
+          Education helps you understand the world, respect different perspectives, and grow as a person. It builds character, shapes your values, and opens doors to endless opportunities.
+          Education also creates a ripple effect. When you learn, you inspire those around you, and together, you can build a brighter, more informed society. It's an investment in yourself and the future.
+        </p>
+      </div>
+    </details>
+
+    <a href="file:///C:/Users/admin/Documents/front.html" class="home-btn">Home</a>
+  </div>
+</body>
+</html>

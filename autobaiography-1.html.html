@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Autobiography</title>
+<style>
+  body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(180deg, #000000, #ffffff);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .container {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 6px 25px rgba(0,0,0,0.1);
+    padding: 40px 50px;
+    max-width: 700px;
+    text-align: center;
+  }
+
+  h1 {
+    color: #000000;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+
+  details {
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 15px 20px;
+    background-color: #f8fafc;
+    transition: all 0.3s ease;
+  }
+
+  details[open] {
+    padding: 40px 20px;
+    background-color: #f1f5f9;
+  }
+
+  summary {
+    font-weight: bold;
+    color: #000000;
+    cursor: pointer;
+    font-size: 1.1em;
+    list-style: none;
+    text-align: left;
+  }
+
+  summary::-webkit-details-marker {
+    display: none;
+  }
+
+  summary::after {
+    content: " ▼";
+    color: #000000;
+    font-size: 0.9em;
+  }
+
+  details[open] summary::after {
+    content: " ▲";
+  }
+
+  .bio {
+    color: #000000;
+    font-size: 1.1em;
+    line-height: 1.8;
+    text-align: justify;
+    max-height: 400px;
+    overflow-y: auto;
+    margin-top: 10px;
+    padding-right: 10px;
+  }
+
+  .bio::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .bio::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border-radius: 6px;
+  }
+
+  .home-btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s ease;
+  }
+
+  .home-btn:hover {
+    background-color: #444444;
+    transform: scale(1.05);
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>David May Bitaw</h1>
+    <details>
+      <summary>Read my autobiography</summary>
+      <div class="bio">
+        <p>
+          Hello ako si Jhon David,17 years old, nag-iisang anak.
+          So noong 2 years old ako nakitaan ako na alam ko kumanta, sabi ni papa 2 years old palang ako kumakanta na ako sa videoke, 
+          dito ko napagtanto na ako ay isang singer, pero noong 3 years old na ako iniwan na ako ng aking ina, sabi nila gusto raw ako 
+          kunin ng aking ina pero nakakapag salita na ako noon kaya tumanggi ako, so fast forward sa highschool kasi diko na maalala elementary days ko.
+          <br><br>
+          so Grade 7 ako noon tinatamad ako mag-aral puro cutting at bakod para lang makapag bike at para hindi ko mapasukan ang kinakainisan kong guro,
+          since nag pandemic na year 2019 puro na online class kaso hindi ako nakikisali kahit module hindi ko nagalaw pero noong balik klase na ulit naging grade 10 agad
+          so dito ko na Nakita lahat ng kakayahan ko bilang isang istudyante, dito ko napagtanto na kaya ko pala ito, dito ko Nakita na kaya kong gumawa ng isang short film mag edit ng mga videos and mag edit ng mga graphics. 
+          <br><br>
+          at dito ko rin nalaman na ako ay isang fast learner sa mga instrument, ang una kong instrument ay drums dahil sa pagsisimba ko na apply ko ito sa sarili ko,
+          sumunod nag ukelele muna ako bago ako humawak ng gitara at sinunod ko naman ang bass guitar, so grade 10 ako, dito ko nalaman na marami pala akong kayang gawin basta explore ko lang,
+          at yon mas lalo pa akong nag explore hanggang sa matuto ako ng matuto pa sa mga bagay na curious ako or sa mga bagay na gusto kong pag-aralan, dito ko din nalaman na ang pasyon ko ay 
+          sa technology dito ko nahiligan mag hack ng mga wifi sa school mag detect ng ip address ng iba gamit ang command prompt
+          <br><br>
+          Fast forward ulit grade 11 at grade 12 na so senior high life naging isang ict student, since ict student ako noon lagi akong tambay sa comlab para may wifi at aircon, grade 11 ako noon paulit-ulit na
+          format ang ginagawa ko para mag ka grade yun lang so grade 12 naman since wala na masyado pasok mag hapon na ako sa comlab hanggang sa nabigyan ako ng susi sa comlab para may access na ako, hanggang 
+          sa ako na ang pinag-aayos ng laptop at pc ako rin ang nag a-upgrade ng mga piyesa, ako na rin ang nag kakabit ng mga ethernet cable sa mga rooms.
+          <br><br>
+          So college life eto na, sinubukan kong mag-apply sa the sower since isa akong campus journalist noong grade 10 hanggang grade 12 at yon nakuha naman ako agad bilang isang photojournalist na ngayon isa ng
+          videographer, editor at photographer.
+        </p>
+      </div>
+    </details>
+
+    <a href="file:///C:/Users/admin/Documents/front.html" class="home-btn">Home</a>
+  </div>
+</body>
+</html>
